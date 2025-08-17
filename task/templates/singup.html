@@ -1,0 +1,9 @@
+<h1>SingUp</h1>
+<form action="/singup/" method="POST">
+    {% csrf_token %}
+    {{error}}
+    {{form.as_p}}
+    <button>
+        SingUp
+    </button>
+</form>
