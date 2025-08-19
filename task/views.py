@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth import login
 from django.db import IntegrityError
 
-
+#hola
 def home(request):
     return render(request, 'home.html')
 
